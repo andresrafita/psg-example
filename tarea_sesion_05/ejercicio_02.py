@@ -3,10 +3,17 @@
 # -273.99 ºC
 # 100 ºC
 
-def celsius_a_fahrenheit(celsius):
-#formula F = C * (9/5) + 32
-    return (celsius * 9/5) + 32
-temperaturas_celsius = [30, -273.99, 100]
-for temp_c in temperaturas_celsius:
-    temp_f = celsius_a_fahrenheit(temp_c)
-    print(f"{temp_c} ºC == {temp_f} ºF")
+# Conversión de 30 ºC a ºF
+celsius_1 = 30
+fahrenheit_1 = (celsius_1 * 9/5) + 32
+print("30 ºC son", fahrenheit_1, "ºF")
+
+# Conversión de -273.99 ºC a ºF
+celsius_2 = -273.99
+fahrenheit_2 = (celsius_2 * 9/5) + 32
+print("-273.99 ºC son", fahrenheit_2, "ºF")
+
+# Conversión de 100 ºC a ºF
+celsius_3 = 100
+fahrenheit_3 = (celsius_3 * 9/5) + 32
+print("100 ºC son", fahrenheit_3, "ºF")

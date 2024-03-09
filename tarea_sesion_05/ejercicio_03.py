@@ -4,5 +4,6 @@ total_segundos = 288325
 dias = total_segundos // 86400
 horas = (total_segundos % 86400) // 3600
 minutos = (total_segundos % 3600) // 60
-print(f"{dias} días, {horas} horas, {minutos} minutos")
+segundos = total_segundos % 60
+print(f"{dias} días, {horas} horas, {minutos} minutos y {segundos} segundos.")
 
