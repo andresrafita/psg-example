@@ -1,4 +1,4 @@
-
+#Tipos de cadenas
 simple = 'Mi cadena permite comillas "dobles" en una sola linea'
 doble = "Mi cadena permite comillas 'simples' en una sola linea"
 triple_simple = '''Mi cadena
@@ -27,22 +27,22 @@ print(type(hexadecimal))
 print(type(booleano))
 
 #Uso del backslash "\"
-#print("El mensaje enviado fue: \"Hello, I\'m a message\"")
-#print('El mensaje enviado fue: \"Hello, I\'m a message\"')
+print("El mensaje enviado fue: \"Hello, I\'m a message\"")
+print('El mensaje enviado fue: \"Hello, I\'m a message\"')
 
 #Uso de la función input
-#entrada = input('Ingrese un valor: ')
-#print(entrada)
-#print(type(entrada))
+entrada = input('Ingrese un valor: ')
+print(entrada)
+print(type(entrada))
 
-#entero = int(input('Ingrese un valor entero: '))
-#print(entero, type(entero))
+entero = int(input('Ingrese un valor entero: '))
+print(entero, type(entero))
 
-#flotante = float(input('Ingrese un valor flotante: '))
-#print(flotante, type(flotante))
+flotante = float(input('Ingrese un valor flotante: '))
+print(flotante, type(flotante))
 
-#booleano = bool(input('Ingrese un valor booleano: '))
-#print(booleano, type(booleano))
+booleano = bool(input('Ingrese un valor booleano: '))
+print(booleano, type(booleano))
 
 #Manejo de indices
 print('Indexado positivo')
@@ -229,7 +229,7 @@ print(cadena)
 print(formateado)
 
 
-# funcion format con f-string
+# funcion format con f-string (Manera mas eficiente)
 print('Función format con f-string')
 moneda = 'Boliviano'
 pais = 'Bolivia'
