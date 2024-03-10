@@ -8,9 +8,4 @@ if variable_bool:
     print("La variable es True")
 else:
     print("La variable es False")
-
-#Ejercicio2
-
-#Construir el operador XNOR
-XNOR = lambda x, y: (x == y) == True
-
+    
