@@ -1,13 +1,16 @@
-#Ejercicio6
+#Ejercicio4
 
-# cuadrado de 123 en un rango determinado
-resultado = 123 ** 2
-if 0 < resultado < 20000:
-    print("El cuadrado de 123 se encuentra en el rango (0, 20000).")
+#Suma de numeros 7 y 3
+numero1 = 7
+numero2 = 3
+
+# Calcular la suma
+suma = numero1 + numero2
+
+# Verificar si la suma es par
+if suma % 2 == 0:
+    print("La suma de 7 y 3 es un número par.")
 else:
-    print("El cuadrado de 123 no se encuentra en el rango (0, 20000).")
+    print("La suma de 7 y 3 no es un número par.")
 
-#Ejercicio7
-    
-#cuadrado y suma de 2 y 2 
-print(2**2 == 2 + 2)
+
