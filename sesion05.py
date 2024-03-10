@@ -60,7 +60,6 @@ print(variable_6)
 print ( type (variable_6) )
 
 #operadores aritmeticos
-
 a = 10
 b = 3
 
@@ -72,13 +71,33 @@ print(a + b)
 print('resta')
 print(a - b)
 
+#multiplicacion
+print('multiplicacion')
+print(a * b)
+
+#division
+print('division')
+print(a / b)
+
+#potencia
+print('potencia')
+print(a ** b)
+
+#division entera
+print('division entera')
+print(a // b)
+
+#modulo
+print('modulo')
+print(a % b)
+
 #poeracionesmas complejas
 minutos = 300
 tiempo_extra_segundos = 3600
 horas = (minutos + tiempo_extra_segundos / 60) / 60
 print(horas)
-
 print ("Operadores de comparación")
+
 comparar = 10
 print (comparar < 10)
 print (comparar > 10)
@@ -86,8 +105,8 @@ print (comparar == 10)
 print (comparar <= 10)
 print (comparar >= 10)
 print (comparar != 10)
-
 print ("Operadores de comparación int - float")
+
 entero = 10
 flotante = 10.0
 print (entero < flotante)
