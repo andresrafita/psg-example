@@ -44,7 +44,11 @@ print (lista[2], type(lista[2]))
 print (lista[3], type(lista[3]))
 
 # Indexación negativa de una lista
-
+lista = [1, "hola", 3.14, (1,2)]
+print (lista[-1], type(lista[-1])) 
+print (lista[-2], type(lista[-2])) 
+print (lista[-3], type(lista[-3])) 
+print (lista[-4], type(lista[-4]))
 
 # Modificación de una lista
 print ("Modificación de una lista")
