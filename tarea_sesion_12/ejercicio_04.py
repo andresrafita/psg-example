@@ -9,14 +9,6 @@ def descuento(edad, compra):
         descuento = 0.02
     return descuento
 
-# Ejemplo de uso
-edad_cliente = 25
-monto_compra = 1200
-descuento_aplicado = descuento(edad_cliente, monto_compra)
-monto_final = monto_compra * (1 - descuento_aplicado)
-
-print(f"El cliente de {edad_cliente} años y una compra de ${monto_compra} recibe un descuento del {descuento_aplicado * 100}%")
-print(f"El monto final a pagar es: ${monto_final}")
 
 
 

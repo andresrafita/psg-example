@@ -7,13 +7,13 @@ nombre = entrada[0].strip() if entrada else None
 gustos_musicales = [gusto.strip() for gusto in entrada[1:]] if len(entrada) > 1 else []
 
 if nombre:
-    print("Nombre válido.")
+    print("Nombre válido")
     if "rock" in gustos_musicales:
-        print("Tiene gusto por el rock.")
+        print("Tiene gusto por el rock")
     else:
-        print("No tiene gusto por el rock.")
+        print("No tiene gusto por el rock")
 else:
-    print("Nombre inválido.")
+    print("Nombre inválido")
 
 
 
