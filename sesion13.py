@@ -127,29 +127,72 @@ while True:
         break
     print(texto.upper())
 
+#### Ejercicio4: crear un ciclo infinito que reciba un numero por teclado y verifique si es par o impar hasta que se ingrese el numero 0
+print("Ejercicio 4")
+while True:
+    texto = int(input("Ingrese un numero: "))
+    if numero == 0:
+        break
+    print("Par" if numero % 2 == 0 else "Impar")
 
+# Estructuras por comprension
+### Ejemplo17: crear una lista de los numeros pares del 2 al 10
+pares = [i for i in range(2,11,2)]
+print(pares)
 
+### Ejemplo18: crear una lista de los numeros pares del 2 al 10 con condicional
+pares = [i for i in range(2,11) if i % 2 == 0]
+print(pares)
 
+### Ejemplo19: crear una lista de los numeros pares del 2 al 10 en un diccionario donde si es par diga "par" y si es impar diga "impar"
+pares = {i: "Par" if i % 2 == 0 else "Impar" for i in range(2,11)}
+print(pares)
 
+#### Ejercicio5: crear una tupla de los numeros impares del 1 al 10 usando una tupla por comprension
+impares = tuple(i for i in range(1,11) if i % 2 != 0)
+print(impares)
 
+# Ciclos anidados
+### Ejemplo20: imprimir las tablas de multiplicar 1 y 2
+for i in range(1,3):
+    print(f"Tabla del {i}")
+    for j in range(1,11):
+        print(f"{i} x {j} = {i*j}")
 
+### Ejemplo21: introducir un numero por teclado y crear un tabla de multiplicar de ese numero del 1 al 10 si se ingresa 0 termina el programa
+while True:
+    numero = int(input("Ingrese un numero: "))
+    if numero == 0:
+        break
+    print(f"Tabla del {numero}")
+    for i in range(1,11):
+        print(f"{numero} x {i} = {numero*i}")
+print("Fin")
 
+## Matriz
+matriz = [[1,2,3],[4,5,6],[7,8,9]]
+for fila in matriz:
+    for columna in fila:
+        print(columna, end=" ")
+    print()
 
+### Ejemplo22: introducir un numero por teclado y crear una matriz nxn con la letra x
+n = int(input("Ingrese un numero: "))
+matriz = [["x" for i in range(n)] for j in range(n)]
+for fila in matriz:
+    for columna in fila:
+        print(columna, end=" ")
+    print()
+print(matriz)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Ejercicio6: crear una matriz ingresando un numero por teclado para el tamaño de la matriz y en cada posicion coloar una tupla con (i,j)
+n = int(input("Ingrese un numero: "))
+matriz = [[(j,i) for i in range(n)] for j in range(n)]
+for fila in matriz:
+    for columna in fila:
+        print(columna,end=" ")
+    print()
+print(matriz)
 
 
 
