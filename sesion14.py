@@ -201,6 +201,7 @@ while True:
     print (resultado)
 
 # Variable global
+"""
 def funcion():
     variable_local = "Variable local"
     print(variable_global)
@@ -208,6 +209,7 @@ def funcion():
 funcion()
 print(variable_global)
 print(variable_local)
+"""
 
 ### Ejemplo8: de la siguiente lista de numeros obtener el mayor y menor numero con una funcion
 numeros = [10,5,20,15,25,30] #global
