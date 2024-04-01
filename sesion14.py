@@ -32,7 +32,7 @@ def funcion():
 resultado = funcion()
 print(resultado)
 
-### Ejemplo 3, crear una funcion que devuelva un saludo en diferentes idiomas
+### Ejemplo 2, crear una funcion que devuelva un saludo en diferentes idiomas
 print ("Ejemplo 2")
 print ("1. Definir función")
 def saludo():
@@ -366,8 +366,8 @@ numero = 5
 resultado = factorial(numero)
 print(f"El factorial de {numero} es: {resultado}")
 
-#Funcion anonima o lambda
-lambda argumento: expresion
+# Funcion anonima o lambda
+# lambda argumento: expresion
 
 ### Ejemplo13: crear una funcion anonima para obtener el cuadrado de un numero
 print ("Ejemplo 13")
